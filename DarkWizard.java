@@ -1,10 +1,10 @@
 public class DarkWizard extends Wizard implements Info, WizardAttack{
-    protected int wizardDamage;
+    //protected int wizardDamage;
     protected String curse;
 
-    public DarkWizard(int wizardDamage, int wizardDamage1) {
+    public DarkWizard(int wizardDamage, String curse) {
         super(wizardDamage);
-        this.wizardDamage = wizardDamage1;
+        this.curse = curse;
     }
 
     @Override
