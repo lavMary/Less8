@@ -1,4 +1,4 @@
-public class Warrior extends Hero {
+abstract class Warrior extends Hero {
     private int phisDamageMultipl;
 
     public Warrior (int hp, int level, int damage) {
