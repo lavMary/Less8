@@ -1,4 +1,4 @@
-public class Beast {
+abstract class Beast {
     private int hp;
     private int damage;
     private String name;
