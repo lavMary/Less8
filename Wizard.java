@@ -1,4 +1,4 @@
-public class Wizard implements WizardAttack{
+abstract class Wizard implements WizardAttack{
     protected int wizardDamage;
 
     public Wizard(int wizardDamage) {
